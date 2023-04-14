@@ -41,7 +41,7 @@ tab_indonesia, tab_provinces, tab_dataframe = st.tabs(['Indonesia', 'Provinces',
 
 
 with tab_indonesia:
-    st.write('### Pertumbuhan kasus baru, kematian, sembuh di Indonesia')
+    st.write('### Growth of new cases, deaths, recoveries in Indonesia')
 
     start_date, end_date = st.slider(
         "Select a range of dates:",
@@ -75,7 +75,7 @@ with tab_indonesia:
             st.metric("Total Recovered", total_recovered)
 
 with tab_provinces:
-    st.write('### Pertumbuhan kasus baru, kematian, dan sembuh tiap provinsi di Indonesia')
+    st.write('### The growth of new cases, deaths and recoveries for each province in Indonesia')
 
     start_date_province, end_date_province = st.slider(
         "Select a range of dates of province:",
