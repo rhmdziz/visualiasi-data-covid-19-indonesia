@@ -6,7 +6,7 @@ import pandas as pd
 # set website
 st.set_page_config(page_title='Time Series: Covid 19 Indonesia', page_icon='🦠', layout='wide')
 st.title('Visualisasi Data Covid 19 Indonesia')
-st.markdown('Source [datasets](http://www.kaggle.com/datasets/hendratno/covid19-indonesia) or you can see [here](https://docs.google.com/spreadsheets/d/1D7fxcSRPQgFDKPp-UdZbLUDKjhkWjzvTigo6SkCTBxY/edit#gid=0) | source [code]()')
+st.markdown('Source [datasets](http://www.kaggle.com/datasets/hendratno/covid19-indonesia) or you can see [here](https://docs.google.com/spreadsheets/d/1D7fxcSRPQgFDKPp-UdZbLUDKjhkWjzvTigo6SkCTBxY/edit#gid=0) | source [code](https://github.com/rhmdziz/visualiasi-data-covid-19-indonesia)')
 
 # datasets
 datasets = 'https://docs.google.com/spreadsheets/d/1D7fxcSRPQgFDKPp-UdZbLUDKjhkWjzvTigo6SkCTBxY/edit#gid=0'.replace('/edit#gid=', '/export?format=csv&gid=')
